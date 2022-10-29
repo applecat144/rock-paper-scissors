@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: auto;
+    padding: 20px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreboard h3 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex: none;
+    padding: 20px 0px;
+}
+
+.buttons button {
+    height: 80px;
+    width: 80px;
+    flex: none;
+}
